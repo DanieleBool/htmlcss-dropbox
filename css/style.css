@@ -13,4 +13,37 @@
     clear: both;
 }
 
+header{
+    height: 50px;
+    width: 100%;
+}
 
+.jumbotrone{
+    width: 100%;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* debug */
+
+.debug header{
+    background-color: yellow;
+}
+
+.debug #jumbotrone {
+    background-color: turquoise;
+    height: 600px;
+}
+
+.debug main {
+    background-color: tomato;
+    height: 1000px;
+}
+
+.debug footer {
+    background-color: violet;
+    height: 400px;
+}
