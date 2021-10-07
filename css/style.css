@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: roboto;
 }
 
 .row::after{
@@ -26,9 +26,10 @@ header{
     line-height: 70px;
 }
 
-.jumbotrone{
+#jumbotron{
     width: 100%;
     background-color: #B4D0E7;
+    height: 600px;
 }
 
 main{
@@ -49,7 +50,7 @@ main{
 header img{
     width: 10%;
     float: left;
-    padding: 10px;
+    padding: 20px 10px 10px 10px;
     margin: auto;
     vertical-align: middle;
 
@@ -75,6 +76,30 @@ main a{
     width: 10%;
 }
 
+/* jumbo */
+
+.jumbo{
+    padding: 0 5% 0px;
+}
+
+h1{
+    text-align: left;
+    font-size: 60px;
+    padding: 60px 0 30px 0;
+    margin-left: 30px;
+}
+
+.scarica{
+    float: left;
+    width: 40%;
+    padding: 30px;
+}
+
+.imgj{
+    float: right;
+    width: 60%;
+    z-index: 1;
+}
 /* debug 
 
 .debug header{
