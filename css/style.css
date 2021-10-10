@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'open sans', sans-serif;
-
 }
 
 .row::after{
@@ -20,7 +19,6 @@
 .right{
     float: right;
 }
-
 
 .button{
     padding: 5px 17px;
@@ -37,7 +35,7 @@ header{
     height: 70px;
     width: 100%;
     line-height: 70px;
-    box-shadow: 0 0 0 2px lightgray;
+    box-shadow: 0 0 0 1px lightgray;
     position: fixed;
     background-color: white;
 }
@@ -85,8 +83,6 @@ nav ul li a:hover{
     font-size: 65px;
     padding: 120px 0 30px 0;
     margin-left: 30px;
-    max-height: 80vh;
-    font-weight: bolder;
 }
 
 .scarica{
@@ -134,8 +130,8 @@ main{
     margin: 0 auto;
 }
 
-#h2check{
-    font-size: 30px;
+#h1check{
+    font-size: 40px;
     margin-top: 150px;
     margin-bottom: 50px;
 }
@@ -164,12 +160,13 @@ main{
 }
 
 .up{
+    border: 1px solid lightgrey;
     border-bottom: none;
     text-align: center;
     padding: 6px 0px;
 }
 
-main section div{
+.border{
     padding: 30px 25px;
     border: 1px solid lightgrey;
 }
@@ -221,7 +218,7 @@ main section div{
     text-align: center;
 }
 
-/* seconda parte main (partner)*/
+/* partner (main) */
 
 .img-left{
     width: 60%;
@@ -244,7 +241,12 @@ main section div{
     display: inline-block;
 }
 
+/* piu operazioni (main) */
 
+.operation h1{
+    margin: 65px 0 45px;
+    font-size: 40px;
+}
 
 
 
