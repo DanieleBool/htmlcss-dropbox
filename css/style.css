@@ -4,12 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'open sans', 'roboto';
+    font-family: 'open sans', sans-serif;
 
-}
-
-h2{
-    font-weight: bolder;
 }
 
 .row::after{
@@ -25,6 +21,18 @@ h2{
     float: right;
 }
 
+
+.button{
+    padding: 5px 17px;
+    line-height: normal;
+    color: white;
+    background-color: #0061FF;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* header */
+
 header{
     height: 70px;
     width: 100%;
@@ -33,16 +41,6 @@ header{
     position: fixed;
     background-color: white;
 }
-
-.button{
-    padding: 5px 17px;
-    line-height: normal;
-    color: white;
-    background-color: #0061FF;
-    text-decoration: none;
-}
-
-/* header */
 
 header img{
     width: 10%;
@@ -66,11 +64,6 @@ nav ul li a{
 
 nav ul li a:hover{
     text-decoration: underline;
-}
-
-main a{
-    float: left;
-    width: 10%;
 }
 
 /* jumbo */
@@ -139,10 +132,9 @@ main a{
 main{
     width: 70%;
     margin: 0 auto;
-
 }
 
-main h2{
+#h2check{
     font-size: 30px;
     margin-top: 150px;
     margin-bottom: 50px;
@@ -153,16 +145,109 @@ main h2{
     display: inline-block;
 }
 
-main section{
+.subscription{
     float: left;
-    width: 400px;
+    width: 30%;
+}
 
+.margin{
+    margin: 0 5% 0 0;
+}
+
+#sub2{
+    width: 100%;
+    margin: 40px 0 150px;
+}
+
+.plan{
+    height: 1200px;
 }
 
 .up{
-    width: 100%;
-    border: 1px solid grey;
+    border-bottom: none;
+    text-align: center;
+    padding: 6px 0px;
 }
+
+main section div{
+    padding: 30px 25px;
+    border: 1px solid lightgrey;
+}
+
+.subscription li{
+    list-style: none;
+    margin-bottom: 25px;
+    list-style-position: outside;
+}
+
+.list i{
+    color: #0061FF;
+}
+
+.silver{
+    display: inline-block;
+    color: lightslategray;
+    margin: 10px 0 45px;
+}
+
+.subscription h2{
+    margin-bottom: 15px;
+}
+
+.subscription span{
+    display: inline-block;
+}
+
+.blue{
+    color: #0061FF;
+    margin: 25px 0;
+    display: inline-block;
+}
+
+.subscription hr{
+    width: 25%;
+}
+
+.subscription h4:last-of-type{
+    margin: 35px 0 25px;
+}
+
+.down{
+    height: 1050px;
+}
+
+.buttonw{
+    width: 100%;
+    text-align: center;
+}
+
+/* seconda parte main (partner)*/
+
+.img-left{
+    width: 60%;
+}
+
+.textr{
+    width: 40%;
+    padding: 30px 0 0 45px;    
+}
+
+.button3{
+    padding: 5px 15px;
+    border: solid 1px;
+    color: black;
+    text-decoration: none;
+}
+
+.partner p{
+    margin: 35px 0;
+    display: inline-block;
+}
+
+
+
+
+
 /* debug 
 
 .debug header{
