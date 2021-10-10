@@ -38,6 +38,7 @@ header{
     box-shadow: 0 0 0 1px lightgray;
     position: fixed;
     background-color: white;
+    z-index: 2;
 }
 
 header img{
@@ -124,10 +125,9 @@ nav ul li a:hover{
 
 /* mian */
 
-
-main{
+.wid{
     width: 70%;
-    margin: 0 auto;
+    margin: 0 auto;    
 }
 
 #h1check{
@@ -248,6 +248,143 @@ main{
     font-size: 40px;
 }
 
+.box{
+    width: 29%;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+.box img{
+    width: 100%;
+}
+
+.box p{
+    margin: 30px 0;
+}
+
+/* team (main) */
+
+.contitem{
+    width: 30vw;
+    height: 30vh;
+}
+
+.team{
+    width: 100vw;
+}
+
+.item{
+    position: relative;
+    width: 15vw;
+    height: 15vw; /*chiedi perchè no vh?*/
+}
+
+.team a{
+    margin: 30px 0;
+}
+
+.inline{
+    display: inline-block;    
+}
+
+.item img{
+    width: 60%;
+    filter: invert(100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate( -50% , -50%);
+}
+
+.centro{
+    width: 40vw;
+    float: left;
+    padding: 30px;
+    background-color: #F5F5F5;
+    height: 30vw; /*                     chiedi*/
+    font-size: 14px;
+}
+
+.centro img{
+    width: 20%;
+}
+
+.centro hr{
+    width: 8%;
+    margin: 40px 0 50px;
+    color: grey;
+}
+
+.centro span{
+    margin: 40px 0;
+    display: inline-block;
+}
+
+/* prova gratuita */
+
+.prova{
+    width: 100vw;
+    float: left;
+    padding: 100px 0;
+}
+
+.prova h1{
+    color: #61082B;
+    font-size: 40px;
+}
+
+.prova a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 50px;
+    background-color: white;
+}
+
+/* item colors */
+
+.verd{
+    background-color: lightgreen;
+}
+
+.blu{
+    background-color: #0D2481;
+}
+
+.sky{
+    background-color: #B4D0E7;
+}
+
+.celestial{
+    background-color: #0093CE;
+}
+
+.rouge{
+    background-color: #61082B;
+}
+
+.orange{
+    background-color: #FF1C1C;
+}
+
+.red{
+    background-color: #D5001F;
+}
+
+.yellow{
+    background-color: #FFD830;
+}
+
+/* domande frequenti */
+
+.question h1{
+    margin: 70px 0 40px;
+}
+
+.quest{
+    font-weight: bold;
+    display: inline-block;
+    padding: 25px 0;
+}
 
 
 /* debug 
