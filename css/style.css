@@ -319,7 +319,7 @@ nav ul li a:hover{
     display: inline-block;
 }
 
-/* prova gratuita !!!!!!!!! */
+/* prova gratuita */
 
 .prova{
     width: 100vw;
@@ -336,6 +336,7 @@ nav ul li a:hover{
     color: black;
     padding: 5px 50px;
     background-color: white;
+    margin-top: 15px;
 }
 
 /* item colors */
@@ -405,7 +406,12 @@ nav ul li a:hover{
 
 footer{
     background-color: black;
-    padding: 90px 5% 100px 0;
+    padding: 90px 5% 0px 0;
+}
+
+.marg-footer{
+    width: 80%;
+    margin: 0 auto;
 }
 
 footer .f-top .column{
@@ -428,16 +434,23 @@ footer .f-top .column{
     margin-bottom: 25px;
 }
 
+/* footer botttom */
+
 .f-bottom hr{
-    width: 8%;
+    width: 10%;
     margin-top: 70px;
     color: grey;
 }
 
-.wid-bott{
-    width: %;
-
+.f-bottom{
+    color: gray;
+    font-size: 14px;
 }
+
+footer .f-bottom i{
+    padding: 25px 0;
+}
+
 
 /* debug 
 
