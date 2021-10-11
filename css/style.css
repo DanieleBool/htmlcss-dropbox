@@ -266,7 +266,7 @@ nav ul li a:hover{
 
 .contitem{
     width: 30vw;
-    height: 30vh;
+    /* height: 30vh; */
 }
 
 .team{
@@ -284,7 +284,7 @@ nav ul li a:hover{
 }
 
 .inline{
-    display: inline-block;    
+    display: inline;    
 }
 
 .item img{
@@ -297,8 +297,7 @@ nav ul li a:hover{
 }
 
 .centro{
-    width: 40vw;
-    float: left;
+    width: calc(100% - 60vw);
     padding: 30px;
     background-color: #F5F5F5;
     height: 30vw; /*                     chiedi*/
@@ -324,7 +323,6 @@ nav ul li a:hover{
 
 .prova{
     width: 100vw;
-    float: left;
     padding: 100px 0;
 }
 
@@ -376,16 +374,70 @@ nav ul li a:hover{
 
 /* domande frequenti */
 
+.question{
+    margin-bottom: 120px;
+}
+
 .question h1{
-    margin: 70px 0 40px;
+    margin: 120px 0 40px;
 }
 
 .quest{
     font-weight: bold;
     display: inline-block;
     padding: 25px 0;
+    font-size: 14px;
 }
 
+.quest2{
+    padding: 25px 25px 0 0;
+}
+
+.question .row{
+    border-bottom: 0.5px solid lightgrey;
+}
+
+.question .row:first-of-type{
+    border-top: 0.5px solid lightgrey;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    padding: 90px 5% 100px 0;
+}
+
+footer .f-top .column{
+    float: left;
+    color: white;
+    width: calc(100% / 5);
+}
+
+.column ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.column ul{
+    list-style: none;
+}
+
+.column h3{
+    margin-bottom: 25px;
+}
+
+.f-bottom hr{
+    width: 8%;
+    margin-top: 70px;
+    color: grey;
+}
+
+.wid-bott{
+    width: %;
+
+}
 
 /* debug 
 
