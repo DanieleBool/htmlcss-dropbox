@@ -81,9 +81,10 @@ header nav.right li:last-of-type{
 
 header ul{position: relative;}
 header ul li{position: relative; }
-header ul li ul{position: relative; display: none;}
-header ul li ul li{}
+header ul li ul{position: relative; display: none; margin-top: 3px;}
+header ul li ul li{width: 100%;}
 header ul li:hover ul{position: absolute; display:block; background-color:white; transition: 0.5s;}
+ul li ul li:hover{background-color: lightgray; border-bottom: none;}
 
 /* jumbo */
 
