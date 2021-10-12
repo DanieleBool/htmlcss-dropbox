@@ -437,11 +437,10 @@ header ul li ul li:hover{background-color: lightgray; border-bottom: none; trans
 .question .row{position: relative; }
 .question .row ul{position: relative; display: none;}
 .question .row ul li{width: 100%; text-align: center;}
-.question .row:hover ul{position: absolute; display:block; background-color:white; width: 100%; list-style-type: none; font-size: 14px;}
-.question .row ul li:hover{background-color: lightgray; transition: 0.5s; box-sizing: ;}
-.question .row:hover ul li{line-height: 64px; vertical-align: middle;
+.question .row:hover:active ul{position: absolute; display:block; background-color:lightgray; z-index: 1; width: 100%; list-style-type: none; font-size: 14px; margin-top: 2.5px; padding-left:10px ;}
+.question .row ul li:hover{background-color: lightgray; transition: 0.5s; box-sizing: ;transition: ease-in-out; }
+.question .row:hover ul li{line-height: 64px; vertical-align: middle;}
 
-}
 /* footer */
 
 footer{
@@ -491,11 +490,22 @@ footer .f-top .column{
     font-size: 14px;
 }
 
+.f-bottom a{
+    text-decoration: none;
+}
+
 footer .f-bottom i{
     padding: 25px 0;
 }
 
-
+/*
+footer span{position: relative; }
+footer span ul{position: relative; display: none;}
+footer span ul li{width: 100%; text-align: center;}
+footer span:hover ul{position: absolute; display:block; background-color:white; width: 100%; list-style-type: none; font-size: 14px;}
+footer span ul li:hover{background-color: lightgray; transition: 0.5s; box-sizing: ;}
+footer span:hover ul li{line-height: 64px; vertical-align: middle;}
+*/
 
 /* debug 
 
