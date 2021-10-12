@@ -498,13 +498,49 @@ footer .f-bottom i{
     padding: 25px 0;
 }
 
-/*
-footer span{position: relative; }
-footer span ul{position: relative; display: none;}
-footer span ul li{width: 100%; text-align: center;}
-footer span:hover ul{position: absolute; display:block; background-color:white; width: 100%; list-style-type: none; font-size: 14px;}
-footer span ul li:hover{background-color: lightgray; transition: 0.5s; box-sizing: ;}
-footer span:hover ul li{line-height: 64px; vertical-align: middle;}
+/* drop-up menù */
+
+.f-bottom span {
+    position: relative;
+    display: inline-block;
+}
+  
+.f-bottom ul {
+    display: none;
+    position: absolute;
+    background-color: rgb(14, 13, 13);
+    bottom:44px;
+    z-index: 1;
+    list-style: none;
+    line-height: 34px;
+    width: 65px;
+    border: 2px gray solid;
+    border-bottom: none;
+    border-radius: 2.5px;
+}
+  
+.f-bottom li a {
+    padding: 0px 1px 0 2px;
+    text-decoration: none;
+    color: gray;
+    display: block;
+
+}
+  
+.f-bottom span:hover ul {
+    display: block;
+}
+
+.f-bottom ul li:hover a{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.788);
+    background-color:rgb(27, 25, 25);
+}
+
+/* TEST
+.f-bottom ul:hover body{
+    background-color: rgba(48, 48, 48, 0.74);
+}
 */
 
 /* debug 
